@@ -1,10 +1,15 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Bem-vindo ao Trybers & Dragons!
+
+Nesta mini aventura inspirada em RPG, os jogadores lutam entre si ou enfrentam monstros e dragões perigosos. Embora o usuário não possa controlar diretamente a luta, os resultados são sempre aleatórios e é possível ajustar alguns parâmetros no arquivo `index.ts`, como raça ou nível do jogador.
+
+O objetivo deste projeto era praticar a Programação Orientada a Objetos (POO) e os princípios SOLID - esta foi minha primeira grande tentativa neste paradigma de programação.
+
+Este projeto foi desenvolvido enquanto estudava desenvolvimento web back-end [@betrybe](https://github.com/betrybe). Os arquivos nos quais trabalhei estão na pasta /src. Obtive aprovação em 100% dos requisitos deste projeto.
+
+
+## Principais linguagens e ferramentas utilizadas
+
+- TypeScript
+- Programação Orientada a Objetos (POO)
+- SÓLID
+- Docker
