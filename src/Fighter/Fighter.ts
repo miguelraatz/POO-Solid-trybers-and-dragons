@@ -1,14 +1,13 @@
+import SimpleFighter from './SimpleFighter';
 import Energy from '../Energy';
 
-interface Fighter {
-  lifePoints: number;
-  strength: number;
+interface Fighter extends SimpleFighter {
   defense: number;
   energy?: Energy;
-  attack(enemy: Fighter): void;
   special?(enemy: Fighter): void;
   levelUp(): void;
-  receiveDamage(attackPoints: number): number;
 }
+
+// Aqui vamos precisar que os métodos de Fighter que recebiam um inimigo do tipo Fighter agora possam receber um SimpleFighter. Assim um Fighter pode atacar um Monster smile.
 
 export default Fighter;
