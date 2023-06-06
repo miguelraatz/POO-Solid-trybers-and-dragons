@@ -8,6 +8,4 @@ interface Fighter extends SimpleFighter {
   levelUp(): void;
 }
 
-// Aqui vamos precisar que os métodos de Fighter que recebiam um inimigo do tipo Fighter agora possam receber um SimpleFighter. Assim um Fighter pode atacar um Monster smile.
-
 export default Fighter;
