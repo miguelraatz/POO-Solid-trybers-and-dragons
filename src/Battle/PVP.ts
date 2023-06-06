@@ -2,20 +2,20 @@ import Fighter from '../Fighter';
 import Battle from './Battle';
 
 class PVP extends Battle {
-  private _player1: Fighter;
-  private _player2: Fighter;
+  private _character1: Fighter;
+  private _character2: Fighter;
 
-  constructor(player1: Fighter, player2: Fighter) {
-    super(player1);
-    this._player1 = player1;
-    this._player2 = player2;
+  constructor(character1: Fighter, character2: Fighter) {
+    super(character1);
+    this._character1 = character1;
+    this._character2 = character2;
   }
 
   fight(): number {
-    while (!(this._player1.lifePoints <= -1
-      || this._player2.lifePoints <= -1)) {
-      this._player1.attack(this._player2);
-      this._player2.attack(this._player1);
+    while (!(this._character1.lifePoints <= -1
+      || this._character2.lifePoints <= -1)) {
+      this._character1.attack(this._character2);
+      this._character2.attack(this._character1);
     }
     return super.fight();
   }
